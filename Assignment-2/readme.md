@@ -19,7 +19,7 @@ Two approaches:
 
 (b) Multinomial Logistic Regression  
     Note: Use softmax function for conditional probability  
-    Train K binary classifiers and each point is assigned to a class, that maximizes the conditional probability.
+    Train K binary classifiers and each point is assigned to a class, that maximizes the conditional probability.  
     *multinomial_train* and *multinomial_predict* are the functions used for this.
 
 Run **logistic_multiclass.sh** script, which will produce **logistic_multiclass.out**. 
@@ -73,5 +73,6 @@ We will see that q38 will lead to faster convergence than q37 (i.e., the trainin
 
 We see that this achieves slightly higher validation accuracies than in q38.
 
-The forward and backward functions of each layer/module are implemented in **dnn_misc.py**. Files **dnn_mlp.py** and **dnn_cnn.py** construct the MLP and CNN.
+The forward and backward functions of each layer/module are implemented in **dnn_misc.py**.  
+Files **dnn_mlp.py** and **dnn_cnn.py** construct the MLP and CNN.
 
