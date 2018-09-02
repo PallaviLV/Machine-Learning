@@ -11,6 +11,7 @@ To execute this, run the scripts **logistic_binary.sh** and **logistic_multiclas
 
 #### Multiclass Classification
 Two approaches:
+
 (a) One-Versus-Rest classification
     For K classes we train K classifiers. Each classifier is trained on a binary problem, where its either belonging to one class 
     or belonging to any other class. The multiclass prediction is made based on the combination of all predictions from K binary
